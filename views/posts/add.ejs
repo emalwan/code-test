@@ -1,0 +1,22 @@
+<h3>Add new post Form</h3>
+<!-- title: String,
+    author: String,
+    genre: String,
+    isFiction: Boolean,
+    numberOfPages: Number -->
+<form method="POST" action="/post/add">
+    <div>
+        <label><%= currentUser.userName %></label>
+        <label>Title</label>
+        <input type="text" name="title">
+    </div>
+
+
+
+    <div>
+        <label>p</label>
+        <input type="text" name="description">
+    </div>
+
+    | <input type="submit">
+</form>
